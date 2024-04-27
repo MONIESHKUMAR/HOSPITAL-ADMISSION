@@ -9,7 +9,7 @@ def get_doctor_appointment_1():
         
     time_preference = st.text_input("Enter your preferred time:")
     
-    if(doctor_selection == "2" or doctor_selection == "4"):
+    if(doctor_selection == "UDAY KUAMR" or doctor_selection == "KUMARA MONIESH"):
         st.write("The Doctor is appointed successfully at ", time_preference)
         st.write("You will receive further updates on WhatsApp.")
     else:
