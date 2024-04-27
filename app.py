@@ -154,5 +154,5 @@ def main():
     st.write("Let's proceed to select the type of doctor you need.")
     display_doctor_field()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
